@@ -1,0 +1,46 @@
+{
+  "name": "react-observe-object-path",
+  "version": "0.0.0",
+  "description": "Higher order component to wrap observe-object-path",
+  "author": "Daiwei Lu <daiweilu123@gmail.com> (http://daiwei.lu)",
+  "keywords": [
+    "reactjs",
+    "react",
+    "react-component",
+    "observable",
+    "higher-order-component"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d6u/react-observe-object-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/d6u/react-observe-object-path/issues"
+  },
+  "homepage": "https://github.com/d6u/react-observe-object-path#readme",
+  "main": "lib/index.js",
+  "files": [
+    "dist",
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "observe-object-path": "^0.3.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "rx": "^4.0.0"
+  },
+  "devDependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "rx": "^4.1.0",
+    "typescript": "^1.8.7",
+    "typings": "^0.7.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
